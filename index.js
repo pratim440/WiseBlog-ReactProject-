@@ -11,10 +11,14 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
 
+app.get("/", (req, res) => {
+  res.send("home page");
+});
 app.use("/blogs", blogRoutes);
 app.use("/user", userRoutes);
 
-app.listen(5000, (err) => {
+const port = process.env.PORT || 5000;
+app.listen(port, (err) => {
   if (err) console.log(err);
   else console.log("Server started successfully");
 });
