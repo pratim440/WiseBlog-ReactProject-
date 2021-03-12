@@ -1,0 +1,7 @@
+$primary: #0abde3;
+$bg-col: #222f3e;
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

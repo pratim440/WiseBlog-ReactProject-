@@ -1,0 +1,59 @@
+.NewBlog_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.NewBlog_container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.NewBlog_container .card .card-body {
+  font-size: 2.3rem;
+  width: 90% !important;
+  min-height: 70vh !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.NewBlog_container .card .card-body textarea {
+  font-size: 2rem;
+}
+
+.NewBlog_container .card .card-body .form-group {
+  width: 100% !important;
+}
+
+.NewBlog_container .card .card-body .btn {
+  font-size: 2.5rem;
+  width: 20rem !important;
+  height: 6rem !important;
+  border-radius: 3rem;
+}
+/*# sourceMappingURL=NewBlog.css.map */

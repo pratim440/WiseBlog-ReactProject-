@@ -1,0 +1,14 @@
+.dashboardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dashboardContainer h1 {
+  font-size: 5rem !important;
+  margin: 30px 0px 50px;
+}
+/*# sourceMappingURL=Dashboard.css.map */

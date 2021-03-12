@@ -1,0 +1,40 @@
+@import "./constants";
+.navbar {
+  background-color: $bg-col;
+  padding: 10px 35px !important;
+  .navbar-brand {
+    font-size: 3.3rem;
+  }
+}
+.navbar-toggler {
+  font-size: 2rem;
+  margin-right: 50px !important;
+}
+.navbar-collapse {
+  background-color: $bg-col;
+  padding-left: 65px;
+}
+.nav-item {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  color: #ecf0f1 !important;
+  &:hover {
+    color: $primary !important;
+  }
+}
+.navLinkActive {
+  color: $primary !important;
+}
+.nav-btn {
+  width: 110px !important;
+  font-size: 2rem;
+  margin: 5px 10px !important;
+}
+.Toastify__toast {
+  width: 500px !important;
+}
+.Toastify__toast-body {
+  font-size: 2.5rem !important;
+}

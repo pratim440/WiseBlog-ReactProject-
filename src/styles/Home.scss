@@ -1,0 +1,48 @@
+@import "./constants";
+.home_container {
+  min-height: 100vh;
+}
+.home_left {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  h4 {
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+  }
+  h1 {
+    font-size: 7.3rem;
+    span {
+      color: $primary;
+    }
+  }
+  .btn {
+    width: 200px !important;
+    font-size: 2.6rem !important;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 0 !important;
+    border: 1px solid $primary;
+    color: $primary;
+    margin-top: 50px;
+    &:hover {
+      background-color: $primary !important;
+      color: #ecf0f1;
+    }
+    &:focus {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+  }
+}
+.home_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-item {
+  img {
+    height: 50rem !important;
+  }
+}

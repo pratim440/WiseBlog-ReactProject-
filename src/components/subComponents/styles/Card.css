@@ -1,0 +1,79 @@
+.card {
+  margin: 15px;
+}
+
+.card-body h5 {
+  font-size: 3.2rem;
+}
+
+.card-body h4 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.card-body p {
+  font-size: 1.7rem;
+  margin: 10px 0 0 10px;
+}
+
+.card-body .card_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.card-body .card_footer .btn {
+  width: 50px !important;
+}
+
+.card-body .card_footer .btn:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: none !important;
+}
+
+.card-body .card_footer .far {
+  font-size: 3rem !important;
+}
+
+.card-body .card_footer .card_footer_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.card-body .card_footer .card_footer_btn p {
+  margin-left: -20px;
+}
+
+.card-body .card_footer .card_footer_btn .noUser {
+  margin-left: 10px !important;
+}
+
+.card-body .card_footer .card_footer_btn .btn {
+  width: 60px !important;
+  border-radius: 5px;
+}
+
+.clickLike {
+  font-size: 3rem !important;
+  color: #0984e3 !important;
+}
+/*# sourceMappingURL=Card.css.map */

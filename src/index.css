@@ -1,13 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+html {
+  font-size: 62.5%;
+  zoom: 80%;
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 46%;
+    zoom: 100% !important;
+  }
+  .card {
+    margin: 15px 0 !important;
+  }
+  .view {
+    padding: 15px !important;
+  }
+  .view .card .card-body img {
+    height: auto !important;
+  }
+  .view .card .card-body h1,
+  p,
+  h3 {
+    margin: 20px 0 !important;
+  }
+  .signInContainer .card {
+    height: 70vh !important;
+    width: 93vw !important;
+    margin-top: -40px !important;
+  }
+  .signInContainer,
+  .signUpContainer .card .card-body {
+    padding: 0 !important;
+  }
+  .signUpContainer .card {
+    height: 85vh !important;
+    width: 93vw !important;
+    margin-top: -40px !important;
+  }
 }

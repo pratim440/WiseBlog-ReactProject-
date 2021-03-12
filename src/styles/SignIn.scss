@@ -1,0 +1,27 @@
+@import "./constants";
+.signInContainer {
+  min-height: 100vh;
+  @include flex;
+  .card {
+    width: 50rem;
+    height: 50rem;
+    @include flex;
+    .card-body {
+      width: 90%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 2rem;
+      .btn {
+        font-size: 2.2rem;
+        height: 50px;
+        margin: 20px;
+        width: 90% !important;
+      }
+      .btn2 {
+        margin: 0 20px 20px;
+      }
+    }
+  }
+}

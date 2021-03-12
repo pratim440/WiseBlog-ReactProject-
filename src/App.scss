@@ -1,0 +1,12 @@
+.app {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden !important;
+}
