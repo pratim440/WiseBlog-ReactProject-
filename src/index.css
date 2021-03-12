@@ -38,7 +38,8 @@ code {
     margin: 20px 0 !important;
   }
   .signInContainer .card {
-    height: 70vh !important;
+    min-height: 70vh !important;
+    height: auto !important;
     width: 93vw !important;
     margin-top: -40px !important;
   }
@@ -47,7 +48,8 @@ code {
     padding: 0 !important;
   }
   .signUpContainer .card {
-    height: 85vh !important;
+    min-height: 85vh !important;
+    height: auto !important;
     width: 93vw !important;
     margin-top: -40px !important;
   }
